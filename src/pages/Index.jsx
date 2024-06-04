@@ -13,6 +13,7 @@ const Index = () => {
         </Text>
         <Link href="/about" color="teal.500" fontSize="xl">Learn more about me</Link>
         <Button as={Link} href="/add-post" colorScheme="teal" size="lg">Add New Post</Button>
+        <Button as={Link} href="/delete-post" colorScheme="red" size="lg">Delete Post</Button>
       </VStack>
     </Container>
   );
